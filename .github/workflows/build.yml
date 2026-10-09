@@ -1,0 +1,36 @@
+name: Windows build and tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-2022
+    timeout-minutes: 10
+    defaults:
+      run:
+        shell: powershell
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+      - name: Build application
+        run: .\src\Build.ps1
+      - name: Run offline fixture tests
+        run: .\tests\Run-Tests.ps1
+      - name: Upload application artifact
+        uses: actions/upload-artifact@v7.0.2
+        with:
+          name: ReforgerModSync-Windows
+          path: |
+            ReforgerModSync.exe
+            README.txt
+          if-no-files-found: error
+          retention-days: 14
+

@@ -1,0 +1,989 @@
+{
+  "status": "success",
+  "dataset": {
+    "warming": false,
+    "stale": false,
+    "snapshotAgeSeconds": 0,
+    "lastCollectionAt": "2026-10-09T19:36:21Z"
+  },
+  "server": {
+    "id": "18131282-bda6-46b9-b135-f654ee5507b1",
+    "name": "JSOTF | PvE REALISM | Public Operation Server 1 | gg/ jsotf HOSTED BY KOVA",
+    "host": "108.171.199.178",
+    "port": 10500,
+    "players": 38,
+    "modCount": 193,
+    "online": true,
+    "lastSeen": "2026-10-09T19:36:21Z",
+    "modSummary": {
+      "count": 193
+    },
+    "mods": [
+      {
+        "id": "65AD7D0D9941A380",
+        "name": "ACE Core Dev",
+        "version": "1.5.39"
+      },
+      {
+        "id": "1337C0DE5DABBEEF",
+        "name": "RHS - Content Pack 01",
+        "version": "0.16.5236"
+      },
+      {
+        "id": "BADC0DEDABBEDA5E",
+        "name": "RHS - Content Pack 02",
+        "version": "0.16.5236"
+      },
+      {
+        "id": "595F2BF2F44836FB",
+        "name": "RHS - Status Quo",
+        "version": "0.16.5237"
+      },
+      {
+        "id": "629B2BA37EFFD577",
+        "name": "WCS_Armaments",
+        "version": "8.3.0"
+      },
+      {
+        "id": "5D0551624969C92E",
+        "name": "Zeliks Character",
+        "version": "1.1.20"
+      },
+      {
+        "id": "5AB301290317994A",
+        "name": "Bacon Suppressors",
+        "version": "1.2.7"
+      },
+      {
+        "id": "69EEAA01F4A11001",
+        "name": "Grey Mans Chute Framework",
+        "version": "0.2.8"
+      },
+      {
+        "id": "64EE818E08AFCF94",
+        "name": "MFD Framework",
+        "version": "0.4.9"
+      },
+      {
+        "id": "696EABC620F5193C",
+        "name": "Flight Warning Systems",
+        "version": "0.4.6"
+      },
+      {
+        "id": "69156B5B321244C9",
+        "name": "Physics Rope",
+        "version": "1.0.3"
+      },
+      {
+        "id": "6708A2497129CDEE",
+        "name": "SOF Infiltration Methods 2.0",
+        "version": "1.1.4"
+      },
+      {
+        "id": "6A3CCEC67529CE12",
+        "name": "Nested Attachments - Core",
+        "version": "1.0.1"
+      },
+      {
+        "id": "5E1735DB431EE29B",
+        "name": "Gulfcoast Buildings",
+        "version": "1.0.33"
+      },
+      {
+        "id": "6632F94B46173164",
+        "name": "Rayzi Utils",
+        "version": "1.0.12"
+      },
+      {
+        "id": "6A46D7D65A7A5C9A",
+        "name": "Nested Attachments - Content",
+        "version": "1.0.0"
+      },
+      {
+        "id": "61ECB5EFAA346151",
+        "name": "TacticalAnimationOverhaul TEST",
+        "version": "2.0.77"
+      },
+      {
+        "id": "5ABD0CB57F7E9EB1",
+        "name": "RIS Laser Attachments",
+        "version": "1.8.0"
+      },
+      {
+        "id": "6586079789278413",
+        "name": "ACE Medical Core Dev",
+        "version": "1.5.36"
+      },
+      {
+        "id": "687CD82F6E41D627",
+        "name": "Attachment Framework-Core",
+        "version": "1.0.16"
+      },
+      {
+        "id": "645F08FA9E7CDEDE",
+        "name": "Attachment Framework",
+        "version": "1.0.42"
+      },
+      {
+        "id": "5AF6E0F075D79473",
+        "name": "M249 Scope Rails",
+        "version": "1.6.0"
+      },
+      {
+        "id": "5F0D245931200FD1",
+        "name": "Railway Generator",
+        "version": "1.0.5"
+      },
+      {
+        "id": "69F0BA4B5BFEB7F7",
+        "name": "CLS Core by Toasty",
+        "version": "2.0.1"
+      },
+      {
+        "id": "64DE57C0A1601D14",
+        "name": "Lunacy Audio",
+        "version": "2.1.2"
+      },
+      {
+        "id": "605F3615AB65443C",
+        "name": "SR Sound Mod",
+        "version": "0.8.141"
+      },
+      {
+        "id": "6174A376E06661BF",
+        "name": "Brutal Voices",
+        "version": "1.0.1"
+      },
+      {
+        "id": "690F67E53E6EDB09",
+        "name": "BFS - F.R.I.E.S Reforged",
+        "version": "1.0.7"
+      },
+      {
+        "id": "606B100247F5C709",
+        "name": "Bacon Loadout Editor",
+        "version": "1.7.3"
+      },
+      {
+        "id": "620E426C34BE0D17",
+        "name": "Laser Rangefinder",
+        "version": "1.0.12"
+      },
+      {
+        "id": "6738DB574AAA1CB4",
+        "name": "Advanced Zeroing System",
+        "version": "1.0.22"
+      },
+      {
+        "id": "695CF766C1D378B4",
+        "name": "BFS - Custom Player Names",
+        "version": "0.0.4"
+      },
+      {
+        "id": "69372D5C78C6F51D",
+        "name": "MH-6J",
+        "version": "1.0.15"
+      },
+      {
+        "id": "65930CB4CD0237B2",
+        "name": "Parachute Framework",
+        "version": "1.2.0"
+      },
+      {
+        "id": "5DB95DA85FDC5120",
+        "name": "Gulfcoast Islands",
+        "version": "1.0.34"
+      },
+      {
+        "id": "68F006D910E7546F",
+        "name": "WCS_Weapon_Scripts",
+        "version": "8.3.0"
+      },
+      {
+        "id": "6A7277AD06C8AD07",
+        "name": "Swag Infil Edit",
+        "version": "1.0.1"
+      },
+      {
+        "id": "68996556700D5CA1",
+        "name": "Prontos Parachutes",
+        "version": "1.0.2"
+      },
+      {
+        "id": "5B0D1E4380971EBD",
+        "name": "COALITION Squad Interface",
+        "version": "1.8.10"
+      },
+      {
+        "id": "65AD7D4F994EA327",
+        "name": "ACE Medical Circulation Dev",
+        "version": "1.5.36"
+      },
+      {
+        "id": "6A2B7C11F4A11078",
+        "name": "GMS Parachute - Chute Framewor",
+        "version": "0.0.1"
+      },
+      {
+        "id": "6867754CA817D856",
+        "name": "6TP - Military Free Fall",
+        "version": "1.0.16"
+      },
+      {
+        "id": "6650B8CF4E5211E5",
+        "name": "USASOC - Assaulter Wristmaps",
+        "version": "1.0.6"
+      },
+      {
+        "id": "61C2509A023211FE",
+        "name": "M4 MAAWS",
+        "version": "0.9.12"
+      },
+      {
+        "id": "5CA6BA2F63DE1174",
+        "name": "M17 Pistol",
+        "version": "1.0.16"
+      },
+      {
+        "id": "6190E1D2CF0A921D",
+        "name": "MK46 - MK48",
+        "version": "1.0.25"
+      },
+      {
+        "id": "662238759352ED9E",
+        "name": "M40-LA",
+        "version": "1.0.9"
+      },
+      {
+        "id": "628F720BC527C143",
+        "name": "Rayzis Optics",
+        "version": "1.3.85"
+      },
+      {
+        "id": "5DE612963E4B005A",
+        "name": "Rail Enfusion Redux",
+        "version": "1.0.12"
+      },
+      {
+        "id": "5994AD5A9F33BE57",
+        "name": "Game Master FX",
+        "version": "1.7.0"
+      },
+      {
+        "id": "5E389BB9F58B79A6",
+        "name": "WCS_SpaceCore",
+        "version": "8.3.0"
+      },
+      {
+        "id": "62F364B35E9B51B0",
+        "name": "Wirecutters 2",
+        "version": "1.1.12"
+      },
+      {
+        "id": "60CC94C046837439",
+        "name": "Game Master Copy Paste",
+        "version": "1.0.5"
+      },
+      {
+        "id": "AA9D0C5C83C6068D",
+        "name": "8 Digit Cursor Grid",
+        "version": "1.0.3"
+      },
+      {
+        "id": "672B0395726428B6",
+        "name": "506IRRU - Enhanced Radio",
+        "version": "1.0.38"
+      },
+      {
+        "id": "669D02FA36538C3C",
+        "name": "Better Stamina",
+        "version": "1.0.1"
+      },
+      {
+        "id": "5F26B8DC102B3E26",
+        "name": "SESOF Stamina",
+        "version": "1.0.5"
+      },
+      {
+        "id": "62E065F712211563",
+        "name": "Custom Colored Roles by flabby",
+        "version": "2.2.2"
+      },
+      {
+        "id": "657D4A2BC729ADD0",
+        "name": "Fiercests Autorun",
+        "version": "1.0.2"
+      },
+      {
+        "id": "69377746E02C0389",
+        "name": "10RRSaveRadio",
+        "version": "1.0.12"
+      },
+      {
+        "id": "64E37695015F8AFA",
+        "name": "AT-4",
+        "version": "1.0.7"
+      },
+      {
+        "id": "65F933571C76AFAE",
+        "name": "Nasty 1911",
+        "version": "0.0.14"
+      },
+      {
+        "id": "6954C37737DD56C8",
+        "name": "GM VON FIXES",
+        "version": "1.0.8"
+      },
+      {
+        "id": "612F512CD4CB21D5",
+        "name": "WCS_Earplugs",
+        "version": "8.3.0"
+      },
+      {
+        "id": "A7C4E91B3D5F8206",
+        "name": "10RR Marker Placement Memory",
+        "version": "1.0.1"
+      },
+      {
+        "id": "69A52EC006D9EC0D",
+        "name": "GM VON proximity",
+        "version": "1.0.1"
+      },
+      {
+        "id": "673F47A1192A73DD",
+        "name": "Nasty420 M700",
+        "version": "0.0.8"
+      },
+      {
+        "id": "65A13067BB6BE151",
+        "name": "M50 gas mask",
+        "version": "1.0.0"
+      },
+      {
+        "id": "696ADB5B831F4627",
+        "name": "Fillable Wristmap",
+        "version": "1.0.11"
+      },
+      {
+        "id": "68AB562502EB08A3",
+        "name": "GRS_BEARDS",
+        "version": "1.0.7"
+      },
+      {
+        "id": "69B358737B7B0411",
+        "name": "McMillan TAC 300 - 338",
+        "version": "1.0.1"
+      },
+      {
+        "id": "69E2E8DDDCC77115",
+        "name": "Flashbangs",
+        "version": "1.0.7"
+      },
+      {
+        "id": "61C8AD57503CA770",
+        "name": "No SL Markers",
+        "version": "1.0.0"
+      },
+      {
+        "id": "68866890A47B5AC3",
+        "name": "SR_Ragdoll",
+        "version": "1.0.0"
+      },
+      {
+        "id": "69F32707DB48CF10",
+        "name": "CLS - JSOTF",
+        "version": "1.0.2"
+      },
+      {
+        "id": "6B1A2C3D4E5F0002",
+        "name": "10RR Grenade Cycling",
+        "version": "1.0.25"
+      },
+      {
+        "id": "69C4F26EC828AFC4",
+        "name": "JSOTF_TempFixes",
+        "version": "1.0.11"
+      },
+      {
+        "id": "68EA733B10CC61BA",
+        "name": "TierOneTatts Redux",
+        "version": "1.0.11"
+      },
+      {
+        "id": "6A05287AF042071B",
+        "name": "Expanded Saline Bags",
+        "version": "1.2.1"
+      },
+      {
+        "id": "6924D1F4810CE6D1",
+        "name": "Smoke Extender and Blue Smoke",
+        "version": "1.0.1"
+      },
+      {
+        "id": "69C6E7E5C3006233",
+        "name": "M224A1 - Handheld 60mm Mortar",
+        "version": "1.0.9"
+      },
+      {
+        "id": "65AD7D4099944EBD",
+        "name": "ACE Magazine Repack Dev",
+        "version": "1.5.36"
+      },
+      {
+        "id": "65AD7C139EB4C1A1",
+        "name": "ACE Backblast Dev",
+        "version": "1.5.36"
+      },
+      {
+        "id": "68F77A54920B80AF",
+        "name": "ACE Ballistics Dev",
+        "version": "1.5.36"
+      },
+      {
+        "id": "65AD7C249E4ECDFB",
+        "name": "ACE Captives Dev",
+        "version": "1.5.36"
+      },
+      {
+        "id": "65AD7BCC9F6B3B4E",
+        "name": "ACE Chopping Dev",
+        "version": "1.5.36"
+      },
+      {
+        "id": "68EAA4B96976D557",
+        "name": "ACE Facepaint Dev",
+        "version": "1.5.36"
+      },
+      {
+        "id": "65AD7CE59E8DB349",
+        "name": "ACE Trenches Dev",
+        "version": "1.5.36"
+      },
+      {
+        "id": "667B230F9505C8BA",
+        "name": "ACE Weather Dev",
+        "version": "1.5.36"
+      },
+      {
+        "id": "65B343F799FB521B",
+        "name": "ACE Medical Hitzones Dev",
+        "version": "1.5.36"
+      },
+      {
+        "id": "671F73D99978B4F2",
+        "name": "ACE Medical Breathing Dev",
+        "version": "1.5.36"
+      },
+      {
+        "id": "65AD7C379CBD394D",
+        "name": "ACE Carrying Dev",
+        "version": "1.5.36"
+      },
+      {
+        "id": "62FCEB51DF8527B6",
+        "name": "Improved Blood Effect",
+        "version": "1.5.9"
+      },
+      {
+        "id": "6A1AF6DD9938A580",
+        "name": "ACE Medical AI Dev",
+        "version": "1.5.36"
+      },
+      {
+        "id": "65AD7D1E9EEAFA53",
+        "name": "ACE Explosives Dev",
+        "version": "1.5.36"
+      },
+      {
+        "id": "694633B6F415DF18",
+        "name": "MK46 & MK48 - FIXED",
+        "version": "1.0.6"
+      },
+      {
+        "id": "5CA125536EE7430A",
+        "name": "M110 DMR",
+        "version": "1.0.28"
+      },
+      {
+        "id": "63294BA2D9F0339B",
+        "name": "WCS_ZU-23-2",
+        "version": "8.3.0"
+      },
+      {
+        "id": "6276E6E3CC97A22B",
+        "name": "AUS_CORE",
+        "version": "0.1.16"
+      },
+      {
+        "id": "644617F2A068E870",
+        "name": "HGU-56 RHS Compat",
+        "version": "1.0.40"
+      },
+      {
+        "id": "684608DD7C7E0DFB",
+        "name": "Aiming Deadzone",
+        "version": "1.0.21"
+      },
+      {
+        "id": "694F4DD56358846B",
+        "name": "MH-6J F.R.I.E.S Reforged Patch",
+        "version": "1.0.0"
+      },
+      {
+        "id": "68D53E2C3E3F4436",
+        "name": "BFS - Rappel Reforged",
+        "version": "1.0.0"
+      },
+      {
+        "id": "68E0005BD8608FDC",
+        "name": "IZLID - Core",
+        "version": "1.0.27"
+      },
+      {
+        "id": "64722DADC53CB75E",
+        "name": "NV-System",
+        "version": "1.0.35"
+      },
+      {
+        "id": "695F3EBA39E5AC0F",
+        "name": "BFS - Custom Player Names CSI",
+        "version": "0.0.3"
+      },
+      {
+        "id": "673029E1E5599263",
+        "name": "SR X Lunacy Audio",
+        "version": "1.0.41"
+      },
+      {
+        "id": "6A0EE1A1D5261244",
+        "name": "Dynamic Weather Mod",
+        "version": "0.11.3"
+      },
+      {
+        "id": "6A197ADD14F5FA1B",
+        "name": "Round Count & Stack",
+        "version": "0.0.1"
+      },
+      {
+        "id": "6727292F1032D5D1",
+        "name": "Build How You Want OB21",
+        "version": "1.0.3"
+      },
+      {
+        "id": "66052DD2B655BF72",
+        "name": "Medical Accessories",
+        "version": "1.0.5"
+      },
+      {
+        "id": "65B37A9BF7E1F14A",
+        "name": "Jeans",
+        "version": "1.0.64"
+      },
+      {
+        "id": "65DACC64CE785B6C",
+        "name": "GRS - Dev Framework",
+        "version": "1.0.55"
+      },
+      {
+        "id": "657B064AE0E231DF",
+        "name": "GRS - Patches",
+        "version": "1.0.27"
+      },
+      {
+        "id": "6515672F96701110",
+        "name": "GRS - Essentials",
+        "version": "1.0.70"
+      },
+      {
+        "id": "692173D45FCF4719",
+        "name": "Kitbash - Clothing",
+        "version": "1.1.5"
+      },
+      {
+        "id": "60DF519BEC7A5649",
+        "name": "Force Garbage Collect",
+        "version": "0.0.2"
+      },
+      {
+        "id": "65183608D6DA5728",
+        "name": "GRS - Belts & Bags & Droplegs",
+        "version": "1.0.59"
+      },
+      {
+        "id": "651834C8D77BF86B",
+        "name": "GRS - Modular Vests & Rigs",
+        "version": "1.0.45"
+      },
+      {
+        "id": "7AB50000000000AB",
+        "name": "CDD Taps",
+        "version": "0.0.1"
+      },
+      {
+        "id": "694F75AD428E7F12",
+        "name": "Kitbash - Clothing Camos Pack",
+        "version": "1.1.2"
+      },
+      {
+        "id": "646B350F36C6D3E4",
+        "name": "Breachable Doors",
+        "version": "1.1.11"
+      },
+      {
+        "id": "63120AE07E6C0966",
+        "name": "WCS_M2A2",
+        "version": "8.3.0"
+      },
+      {
+        "id": "5CE334EA7649C7CC",
+        "name": "Game Master Safe Zones",
+        "version": "1.0.11"
+      },
+      {
+        "id": "64610AFB74AA9842",
+        "name": "WCS_Core",
+        "version": "8.3.0"
+      },
+      {
+        "id": "64F10E068D5880A6",
+        "name": "GM Tools",
+        "version": "2.2.0"
+      },
+      {
+        "id": "6A352DB259882B83",
+        "name": "VON Identity Colors",
+        "version": "1.0.5"
+      },
+      {
+        "id": "68B320130BC6EDA4",
+        "name": "pvs better raised position",
+        "version": "1.0.7"
+      },
+      {
+        "id": "6A3873E87AD57606",
+        "name": "WCS_M2A2_Upgrade",
+        "version": "8.3.0"
+      },
+      {
+        "id": "6A20948448913FD7",
+        "name": "WCS_Hescos",
+        "version": "8.3.0"
+      },
+      {
+        "id": "5C721177A220B42F",
+        "name": "WCS_JLTV",
+        "version": "8.3.0"
+      },
+      {
+        "id": "5B02128D896F7DE8",
+        "name": "WCS_Stryker",
+        "version": "8.3.0"
+      },
+      {
+        "id": "666839B07C2DCC03",
+        "name": "STRYKER & MEDEVAC - EVASAN",
+        "version": "1.0.22"
+      },
+      {
+        "id": "5E524E4FEECCA92B",
+        "name": "WCS_BMP-1",
+        "version": "8.3.0"
+      },
+      {
+        "id": "5E0AB16BEB16D6A4",
+        "name": "WCS_T-72",
+        "version": "8.3.0"
+      },
+      {
+        "id": "5B383D4CB27E0D54",
+        "name": "WCS_BMP-3",
+        "version": "8.3.0"
+      },
+      {
+        "id": "903EC8E104CB7DDC",
+        "name": "KOVA - Admin Tools",
+        "version": "1.0.62"
+      },
+      {
+        "id": "6A49417788E13618",
+        "name": "Kova x ATAK",
+        "version": "0.0.8"
+      },
+      {
+        "id": "6A497C56E583A9B2",
+        "name": "Kova x ATAK Plugin Core",
+        "version": "0.0.3"
+      },
+      {
+        "id": "6A4F3EF9908A604F",
+        "name": "Congos Tactical Graphics",
+        "version": "2.0.0"
+      },
+      {
+        "id": "6A4A257AE5F281BE",
+        "name": "Kova x ATAK 3D Map",
+        "version": "0.0.4"
+      },
+      {
+        "id": "6A4A25B3E3203EB1",
+        "name": "Kova x ATAK Minimap",
+        "version": "0.0.4"
+      },
+      {
+        "id": "6A6B59298C512828",
+        "name": "CTG x KOVA ATAK Minimap",
+        "version": "1.0.0"
+      },
+      {
+        "id": "6A67238B8E1268EB",
+        "name": "CTG x KOVA ATAK",
+        "version": "1.0.1"
+      },
+      {
+        "id": "692069AC8EBBC633",
+        "name": "USSOCOM Berets",
+        "version": "1.0.24"
+      },
+      {
+        "id": "66E550E4E6A2E4B9",
+        "name": "LAV 6 Ambulance",
+        "version": "1.0.2"
+      },
+      {
+        "id": "60ED3CC6E7E40221",
+        "name": "Sikorsky H60 Project",
+        "version": "0.6.56"
+      },
+      {
+        "id": "5F268647F8A1A1F4",
+        "name": "CRX Enfusion A.I.",
+        "version": "1.3.73"
+      },
+      {
+        "id": "685448E58B08F021",
+        "name": "ReforgerJS Support",
+        "version": "1.0.48"
+      },
+      {
+        "id": "6A24CBB55832D64E",
+        "name": "NoWeightByCryneX",
+        "version": "0.0.7"
+      },
+      {
+        "id": "697CC096F5E423E0",
+        "name": "SplintACE",
+        "version": "1.0.7"
+      },
+      {
+        "id": "69A8A34027DA65C5",
+        "name": "Propeller Flight Core",
+        "version": "1.0.18"
+      },
+      {
+        "id": "6528C95796EBEDE0",
+        "name": "Environmental Ambience Mod",
+        "version": "1.0.13"
+      },
+      {
+        "id": "6052A9DD45564825",
+        "name": "You can sit",
+        "version": "1.0.8"
+      },
+      {
+        "id": "64CB39E57377C861",
+        "name": "WCS_AH-1S",
+        "version": "8.3.0"
+      },
+      {
+        "id": "6E8B92F4A1C7053E",
+        "name": "Tactical Ladder by PRONEDROG",
+        "version": "1.0.15"
+      },
+      {
+        "id": "6A6F6DA629DF10E9",
+        "name": "USASOC Blood",
+        "version": "1.0.0"
+      },
+      {
+        "id": "6A5095352BF6246B",
+        "name": "USASOC Ace Medical Tweaks",
+        "version": "1.0.25"
+      },
+      {
+        "id": "69389797227E64A8",
+        "name": "C-130J Super Hercules",
+        "version": "1.1.3"
+      },
+      {
+        "id": "6A882438343E28B6",
+        "name": "USASOC FIXED WING CORE",
+        "version": "1.0.10"
+      },
+      {
+        "id": "69AF406C834B50A6",
+        "name": "Ghost GM",
+        "version": "1.1.2"
+      },
+      {
+        "id": "60E2D7E5A20FABEB",
+        "name": "Keep Abandoned Vehicles",
+        "version": "1.1.2"
+      },
+      {
+        "id": "B597D022F33EA9DC",
+        "name": "Better View Distance",
+        "version": "1.8.19"
+      },
+      {
+        "id": "6A714DE9A6F0EC08",
+        "name": "a jon car",
+        "version": "1.0.13"
+      },
+      {
+        "id": "A71C8ED4169B302F",
+        "name": "GMS Static Line - JumpWireC130",
+        "version": "0.0.3"
+      },
+      {
+        "id": "6A6747943B6FE137",
+        "name": "GMS STATIC LINE IN C130",
+        "version": "1.0.6"
+      },
+      {
+        "id": "612851D73DF01668",
+        "name": "WCS_FlipPush",
+        "version": "1.0.1"
+      },
+      {
+        "id": "66FAF6113997388F",
+        "name": "More Brutal Voices",
+        "version": "1.0.5"
+      },
+      {
+        "id": "CEF13D07B83D0A23",
+        "name": "VooDoo-S Thermal Clip-On",
+        "version": "1.0.4"
+      },
+      {
+        "id": "6A2CF802755437E4",
+        "name": "BM - Core",
+        "version": "1.0.1"
+      },
+      {
+        "id": "672EE3CC8A605F28",
+        "name": "Hold Your Breath",
+        "version": "1.0.2"
+      },
+      {
+        "id": "6F417A32E17A2178",
+        "name": "Phaseline - NVG Systems",
+        "version": "1.0.8"
+      },
+      {
+        "id": "6A682E35AC47E484",
+        "name": "Jarma",
+        "version": "1.0.1"
+      },
+      {
+        "id": "5964E0B3BB7410CE",
+        "name": "Game Master Enhanced",
+        "version": "1.3.8"
+      },
+      {
+        "id": "6A429A26A314F9C6",
+        "name": "Voryxia Vehicle Sound Fix",
+        "version": "1.0.0"
+      },
+      {
+        "id": "697C1B4763225DB8",
+        "name": "PHASELINE HELMETS",
+        "version": "1.0.12"
+      },
+      {
+        "id": "69CC6D8D773BD9CE",
+        "name": "BM - M18",
+        "version": "1.0.6"
+      },
+      {
+        "id": "69AD3AF3F20FE611",
+        "name": "CDD ELR Mod Pack",
+        "version": "0.1.26"
+      },
+      {
+        "id": "6A2A460F6FE4B59A",
+        "name": "GRS NVGS",
+        "version": "1.1.1"
+      },
+      {
+        "id": "6A350AC163BE0E04",
+        "name": "GRS NVGs- RHS Compat",
+        "version": "1.0.1"
+      },
+      {
+        "id": "6A7B0906EEB68624",
+        "name": "Kova x Armory",
+        "version": "0.0.14"
+      },
+      {
+        "id": "6A733E91005E602F",
+        "name": "USASOC Ai C130",
+        "version": "1.0.6"
+      },
+      {
+        "id": "6A854B4CEBD2E314",
+        "name": "Kova x Kits",
+        "version": "0.0.6"
+      },
+      {
+        "id": "6A6F50E5AC89A7F2",
+        "name": "A ArmaJon Project",
+        "version": "1.0.25"
+      },
+      {
+        "id": "66A920DA264A9F98",
+        "name": "More GM Props",
+        "version": "1.0.2"
+      },
+      {
+        "id": "6A77696DD0B0AA3C",
+        "name": "JSOTF - Radio Improvements",
+        "version": "1.0.2"
+      },
+      {
+        "id": "69F2E579A9640538",
+        "name": "Gulfcoast Islands Navmesh fix",
+        "version": "1.0.0"
+      },
+      {
+        "id": "646E249764095363",
+        "name": "T.A.O RHS AND WP PACK COMPAT",
+        "version": "1.0.9"
+      },
+      {
+        "id": "69A528B0161A0C8A",
+        "name": "NSW Misc",
+        "version": "1.0.18"
+      },
+      {
+        "id": "6A30C1606411936A",
+        "name": "Phaseline - Suppressors",
+        "version": "1.0.4"
+      },
+      {
+        "id": "E4D206B81482F59E",
+        "name": "Phaseline - Modular Rifles",
+        "version": "1.0.24"
+      },
+      {
+        "id": "BFC890A6F1603EC0",
+        "name": "Phaseline - Marksman Rifles",
+        "version": "1.0.2"
+      },
+      {
+        "id": "D7306EC21E1BC452",
+        "name": "Phaseline - M1151 HMMWV",
+        "version": "1.0.0"
+      }
+    ]
+  }
+}
