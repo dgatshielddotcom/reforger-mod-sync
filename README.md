@@ -6,7 +6,7 @@ Membership is compared by mod GUID. **Versions are ignored**, so the game can ch
 
 ## Download and use
 
-Download [ReforgerModSync.exe](downloads/ReforgerModSync.exe?raw=true). The app runs on Windows 10/11 with .NET Framework 4.8. No installer, API key, or administrator access is required. 
+Download [ReforgerModSync.exe](https://raw.githubusercontent.com/dgatshielddotcom/reforger-mod-sync/refs/heads/main/downloads/ReforgerModSync.exe). The app runs on Windows 10/11 with .NET Framework 4.8. No installer, API key, or administrator access is required. 
 
 1. Open the app and select the correct local `addons` folder. The starting path is your Windows Documents folder followed by `My Games\ArmaReforger\addons`; use **Browse** if your game uses another location.
 2. Enter a server name and click **Find server**. Select the correct result, then verify its name/address and the preview.
