@@ -1,9 +1,3 @@
-REFORGER MOD SYNC
-
-Double-click ReforgerModSync.exe. No installer, Python, API key, or administrator
-access is needed. Uses the Windows .NET Framework and an internet connection for
-live server lookup. Manual JSON import works without internet access.
-
 SELECTING ANY SERVER
 
 1. Enter the server's name in the Server field and click Find server.
