@@ -6,7 +6,7 @@ Membership is compared by mod GUID. **Versions are ignored**, so the game can ch
 
 ## Download and use
 
-Download [ReforgerModSync.exe](downloads/ReforgerModSync.exe?raw=true). The app runs on Windows 10/11 with .NET Framework 4.8. No installer, API key, or administrator access is required. The binary in `downloads/` was built from this source; its SHA-256 checksum is in [SHA256SUMS.txt](downloads/SHA256SUMS.txt).
+Download [ReforgerModSync.exe](downloads/ReforgerModSync.exe?raw=true). The app runs on Windows 10/11 with .NET Framework 4.8. No installer, API key, or administrator access is required. 
 
 1. Open the app and select the correct local `addons` folder. The starting path is your Windows Documents folder followed by `My Games\ArmaReforger\addons`; use **Browse** if your game uses another location.
 2. Enter a server name and click **Find server**. Select the correct result, then verify its name/address and the preview.
@@ -15,7 +15,7 @@ Download [ReforgerModSync.exe](downloads/ReforgerModSync.exe?raw=true). The app 
 
 Deletion sends extra addon folders to the Windows Recycle Bin by default. **Delete permanently** removes them without recovery through this app. Emptying the Recycle Bin is also permanent. Nothing is removed automatically.
 
-The original JSOTF Public Operation Server 1 is preselected for convenience; you can choose another server at any time. The live list is fetched again before each cleanup.
+The original JSOTF Public Operation Server 1 is preselected for convenience (this was made for personal use) you can choose another server at any time. The live list is fetched again before each cleanup.
 
 Supported direct inputs:
 
