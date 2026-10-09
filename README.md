@@ -54,29 +54,6 @@ Unknown folders, including `addons\saves`, conflicting IDs, and folders containi
 
 Missing addons are displayed for reference. Join the server through Arma Reforger to download required addons; the app does not download, update, or downgrade them. Only the selected `addons` directory is managed; mods loaded through other `-addonsDir` paths are outside its scope.
 
-## Build
-
-From a checkout on Windows, run:
-
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\src\Build.ps1
-```
-
-The script uses the installed Windows .NET Framework C# compiler and creates `ReforgerModSync.exe` in the repository root. No package restore or external SDK is required. Source is C# 5 with Windows Forms and .NET Framework libraries.
-
-## Test
-
-Close Arma Reforger before running engine tests. They create random temporary fixture directories and never access a real addon directory.
-
-```powershell
-# Offline tests: filesystem safeguards, manual import, and public API fixtures.
-powershell -NoProfile -ExecutionPolicy Bypass -File .\tests\Run-Tests.ps1
-
-# Optional live provider requests and Windows Recycle Bin integration.
-powershell -NoProfile -ExecutionPolicy Bypass -File .\tests\Run-Tests.ps1 -Live -Recycle
-```
-
-The optional recycle test sends one small generated fixture addon to your Recycle Bin. Test executables stay in ignored `work\test-binaries`. GitHub Actions builds the app, runs offline tests, and uploads a downloadable build artifact; it does not publish releases.
 
 ## References
 
