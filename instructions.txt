@@ -1,3 +1,5 @@
+INSTRUCTIONS
+
 SELECTING ANY SERVER
 
 1. Enter the server's name in the Server field and click Find server.
