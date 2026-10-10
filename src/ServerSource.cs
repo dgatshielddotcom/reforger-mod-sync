@@ -76,7 +76,7 @@ namespace ReforgerModSync
             return ParseSearch(Download("https://api.reforgermods.net/v2/servers?perPage=100&includeOffline=false&sort=players&search=" + Uri.EscapeDataString(query)));
         }
 
-        // Server-list previews often omit addresses; the selected UUID remains the identity.
+        // Search results may omit addresses. Use the UUID to identify the server.
         public static List<ServerCandidate> ParseSearch(string json)
         {
             Dictionary<string, object> root = ReadRoot(json);
@@ -114,7 +114,7 @@ namespace ReforgerModSync
         {
             try
             {
-                ServicePointManager.SecurityProtocol = (SecurityProtocolType)3072; // TLS 1.2 on .NET Framework 4.x.
+                ServicePointManager.SecurityProtocol = (SecurityProtocolType)3072; // TLS 1.2
                 HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
                 request.Method = "GET";
                 request.UserAgent = "ReforgerModSync/1.0 (Windows; personal mod manager)";
@@ -169,7 +169,6 @@ namespace ReforgerModSync
             }
         }
 
-        // Public so provider validation can be exercised with fixtures without network requests.
         public static ServerSnapshot Parse(string json)
         {
             return Parse(json, DefaultCandidate());

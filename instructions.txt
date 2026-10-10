@@ -1,97 +1,25 @@
-INSTRUCTIONS
+REFORGER MOD SYNC
 
-SELECTING ANY SERVER
+Windows 10/11, .NET Framework 4.8. No installer.
+Made for personal use; JSOTF is preselected, but you can pick any server.
 
-1. Enter the server's name in the Server field and click Find server.
-2. Select the correct result. The app loads its address and reported mod list.
-3. Verify the selected server name/address above the fields and review the preview.
-4. Close Arma Reforger and click Delete extra mods to remove local extras.
+1. Open ReforgerModSync.exe and Browse to your addons folder.
+2. Enter a server name and click Find server, or paste a ReforgerMods link/UUID.
+3. Check the server and preview. Close Reforger and Workbench.
+4. Click Delete extra mods and confirm.
 
-You can also paste a ReforgerMods server page URL, API detail URL, or server UUID:
-https://reforgermods.net/servers/<server-UUID>
-https://api.reforgermods.net/v2/servers/<server-UUID>
+Deleting uses the Recycle Bin. Delete permanently frees space immediately
+and can't be undone.
 
-Search shows up to 100 matches. It can match scenario names too, so always select
-the server yourself. Use a more specific name if your server is missing. The full
-mod list is refreshed again before every cleanup and the selected identity appears
-in the final confirmation. Editing the server field invalidates the previous preview.
+Disable extras keeps files in a separate folder. Restore disabled brings
+those files back. Disabling doesn't free space.
 
-The public index searches names, not IP addresses. Arbitrary BattleMetrics links
-cannot be resolved without access to its subscription API; search the server's name
-instead. The original supplied BattleMetrics link remains recognized as a shortcut.
+Import JSON accepts a mod list or server config. Get the complete list,
+including dependencies, from the server admin; the app can't verify it.
+Confirm [] only for a known vanilla server.
 
-PRIVATE / UNLISTED SERVERS AND MANUAL IMPORT
+Versions are ignored. Join the server in Reforger to get missing mods and
+the required versions. Unknown folders, including saves, stay put.
 
-Click Import mod list... and choose a JSON export or server configuration. It must
-include ALL required mods, including dependencies. Supported formats:
-
-An exported array:
-[
-  {"modId":"65AD7D0D9941A380","name":"ACE Core Dev"},
-  {"modId":"595F2BF2F44836FB","name":"RHS - Status Quo"}
-]
-
-Also supported: {"mods":[...]}, a server config containing game.mods, an API export
-containing server.mods, and arrays of 16-character mod IDs. Both modId and id fields
-are accepted. Names and versions are optional; versions are always ignored.
-
-For a known vanilla server, import a JSON file containing [] and explicitly confirm
-that it is the complete empty list. Every recognized local mod becomes an extra.
-Automatic zero-mod API responses are blocked: zero reported mods do not prove the
-server has no mods. Unknown folders are protected even with an explicitly empty list.
-
-Imported files are reread before cleanup. The app cannot establish that a manually
-supplied list matches a live server; obtain the complete list from its administrator
-or a reliable export. It does not upload the imported file or local addon files.
-
-LOCAL FOLDER AND CLEANUP
-
-The initial folder is your Windows Documents folder followed by:
-My Games\ArmaReforger\addons
-
-Use Browse to select another addons folder. The initial server remains the original
-JSOTF Public Operation Server 1 for convenience; you can change it at any time.
-
-Only mod IDs are compared. Every identified local mod whose GUID is absent from the
-chosen server list is marked Extra. Required mods stay regardless of their version.
-Missing mods are shown for reference; no downloads, updates or downgrades are done.
-
-Delete extra mods sends folders to the Windows Recycle Bin by default. To reclaim
-disk space immediately, check Delete permanently first. Permanent deletion cannot
-be undone. The app previews the list and confirms the operation before deleting.
-No cleanup runs automatically.
-
-Unknown or conflicting folders, including addons\saves, stay in place. Links and
-junctions are not followed. Existing folders are never overwritten. Mods stored
-elsewhere or loaded through other -addonsDir paths are outside this tool's scope.
-
-OPTIONAL DISABLING / RESTORING
-
-Disable extras moves extra folders into the sibling addons-disabled-by-ReforgerSync
-folder, keeping their files. This isolates folders rather than editing the game's
-native enabled flag and does not reclaim space. Required mods already disabled by
-the tool are returned to addons during cleanup.
-
-Restore all disabled returns recognized isolated folders while the game is closed.
-It works offline. Conflicts are skipped. This button does not restore deleted mods;
-recover recycled mods through Windows Recycle Bin instead.
-
-The sibling folder contains an operation journal. After an interrupted operation,
-Refresh shows actual disk state. Completed disabling moves remain reversible;
-completed permanent deletions cannot be rolled back.
-
-SERVER DATA / SOURCE
-
-Live lookup uses the public ReforgerMods server index. It validates selected server
-UUID, known address, freshness, online status, reported counts, unique IDs and any
-reported dependency IDs. Offline, empty, stale, inconsistent or wrong-server data
-cannot be used for automatic cleanup. Imported JSON is explicitly identified as an
-imported list in the preview.
-
-The src folder contains the complete C# source and Build.ps1. Run src\Build.ps1 in
-PowerShell to rebuild using Windows .NET Framework libraries only.
-
-Public API reference:
-https://reforgermods.net/arma-reforger-mods-api/v2/
-Official server configuration / mods JSON reference:
-https://community.bistudio.com/wiki/Arma_Reforger:Server_Config
+Download, source and build/test instructions:
+https://github.com/dgatshielddotcom/reforger-mod-sync

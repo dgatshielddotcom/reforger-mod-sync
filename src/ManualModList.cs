@@ -70,7 +70,7 @@ namespace ReforgerModSync
                 string modName = row == null ? id : Optional(row, "name");
                 snapshot.Mods.Add(new ServerMod { Id = id.ToUpperInvariant(), Name = string.IsNullOrWhiteSpace(modName) ? id.ToUpperInvariant() : modName, Version = "" });
             }
-            // Confirmation comes only from the UI, never from an imported JSON property.
+            // The app confirms empty lists; an imported flag doesn't count.
             return snapshot;
         }
 

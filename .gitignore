@@ -1,4 +1,4 @@
-# generated applications and test executables are ignored except the shipped build.
+# Builds
 *.exe
 !downloads/ReforgerModSync.exe
 *.dll
@@ -6,8 +6,6 @@
 *.zip
 *.log
 *.jsonl
-
-# build intermediates and local editor/settings files.
 work/
 bin/
 obj/
@@ -16,7 +14,7 @@ obj/
 *.user
 *.suo
 
-# never commit local game data or configuration exports.
+# Local game files
 addons/
 addons-disabled-by-ReforgerSync/
 local-config/

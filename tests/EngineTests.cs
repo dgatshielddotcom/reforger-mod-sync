@@ -126,7 +126,7 @@ class EngineTests
         }
         finally
         {
-            // Cleanup is restricted to the one random test directory created above; never real addons.
+            // Only clean up this test's temp folder.
             string absolute = Path.GetFullPath(fixtures);
             string temp = Path.GetFullPath(Path.GetTempPath()).TrimEnd('\\') + "\\";
             if (absolute.StartsWith(temp, StringComparison.OrdinalIgnoreCase) && Path.GetFileName(absolute).StartsWith("ReforgerModSync-tests-", StringComparison.Ordinal))

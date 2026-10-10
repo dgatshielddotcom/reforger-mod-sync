@@ -13,7 +13,6 @@ using System.Web.Script.Serialization;
 
 namespace ReforgerModSync
 {
-    // Operate only on recognized immediate addon directories. Never follow links or overwrite content.
     public static class ModEngine
     {
         private const string BaseGameId = "58D0FB3206B6F859";
@@ -37,8 +36,7 @@ namespace ReforgerModSync
             var all = plan.Active.Concat(plan.Disabled).ToList();
             MarkDuplicates(all);
             var required = new HashSet<string>(plan.Snapshot.Mods.Select(m => m.Id), StringComparer.OrdinalIgnoreCase);
-            // The authoritative server list already contains its dependencies. Installed older
-            // revisions may have obsolete dependencies, so only server IDs determine membership.
+            // Old versions can have obsolete dependencies. Keep only the server's IDs.
             var keep = new HashSet<string>(required, StringComparer.OrdinalIgnoreCase);
             var server = plan.Snapshot.Mods.ToDictionary(m => m.Id);
             var satisfied = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
@@ -278,7 +276,7 @@ namespace ReforgerModSync
                 local.Warning = ex.Message;
                 stamp.Append("\nUNKNOWN=").Append(ex.Message);
             }
-            // Changes in folder identity or its top-level files also invalidate a preview.
+            // Folder and file changes invalidate the preview too.
             try
             {
                 stamp.Append("\nDIR=").Append(new DirectoryInfo(folder).CreationTimeUtc.Ticks);
@@ -479,14 +477,14 @@ namespace ReforgerModSync
             return verb + " " + removed + " extra folder(s); restored " + restored + ". Missing server addons: " + plan.MissingCount + ". Versions were ignored. Join the server in Arma Reforger to download missing addons." + recovery;
         }
 
-        // Modern Shell recycling explicitly requests recycle rather than permanent deletion.
-        // There is no permanent-delete fallback; an error or aborted operation stops Apply.
+        // Recycle only. If Windows can't do it, stop.
         private static void RecycleDirectory(string path)
         {
             Version windows = Environment.OSVersion.Version;
             if (windows.Major < 6 || (windows.Major == 6 && windows.Minor < 2))
                 throw new NotSupportedException("Safe recycling requires Windows 8 or later. Select reversible disable instead.");
             if (Thread.CurrentThread.GetApartmentState() == ApartmentState.STA) { RecycleDirectorySta(path); return; }
+            // Shell COM needs an STA thread.
             Exception error = null;
             Thread worker = new Thread(delegate() { try { RecycleDirectorySta(path); } catch (Exception ex) { error = ex; } });
             worker.SetApartmentState(ApartmentState.STA);

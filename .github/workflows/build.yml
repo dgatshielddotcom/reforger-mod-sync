@@ -1,4 +1,4 @@
-name: Windows build and tests
+name: Windows build
 
 on:
   push:
@@ -20,17 +20,16 @@ jobs:
       - uses: actions/checkout@v7.0.1
         with:
           persist-credentials: false
-      - name: Build application
+      - name: Build
         run: .\src\Build.ps1
-      - name: Run offline fixture tests
+      - name: Test
         run: .\tests\Run-Tests.ps1
-      - name: Upload application artifact
+      - name: Upload app
         uses: actions/upload-artifact@v7.0.2
         with:
           name: ReforgerModSync-Windows
           path: |
             ReforgerModSync.exe
-            README.txt
+            instructions.txt
           if-no-files-found: error
           retention-days: 14
-
