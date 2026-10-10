@@ -27,3 +27,5 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\tests\Run-Tests.ps1
 ```
 
 [Server API](https://reforgermods.net/arma-reforger-mods-api/v2/) · [Config format](https://community.bistudio.com/wiki/Arma_Reforger:Server_Config)
+
+dm me on discord @b33v for any questions or requests for tools like this!
